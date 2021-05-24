@@ -28,7 +28,7 @@ namespace Attributes
             Console.ReadLine();
         }
         
-        [AttributeUsage(AttributeTargets.Class)]
+        [AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
         public class Test : Attribute
         {
             public string Name { get; set; }
