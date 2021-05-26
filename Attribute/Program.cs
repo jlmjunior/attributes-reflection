@@ -39,7 +39,7 @@ namespace Attributes
             }
         }
 
-        [Test("Testing")]
+        [Test("TestName")]
         public class Result
         {
             public int Number { get; set; }
